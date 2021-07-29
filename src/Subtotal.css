@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  width: 300px;
+  width: 500px;
   height: 100px;
   background-color: lightgrey;
   border: 1px solid whitesmoke;
@@ -20,7 +20,7 @@
 }
 
 .subtotal > button {
-  background: orange; 
+  background: orange;
   border: 1px solid;
   margin-top: 10px;
   color: black;
