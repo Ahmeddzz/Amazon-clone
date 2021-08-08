@@ -2,6 +2,7 @@
   margin: 0;
 }
 
+
 body {
   margin: 0;
   background-color: rgb(234,237,237);
@@ -11,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

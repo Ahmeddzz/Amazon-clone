@@ -19,15 +19,12 @@ function Home() {
                     image="https://images-na.ssl-images-amazon.com/images/I/61y04z8SKEL._SX349_BO1,204,203,200_.jpg"
                     rating={5} 
                     />
-                
+
                 <Product title='APPLE iPhone 12 - 128 GB Zwart 5G' 
                     price={849} 
                     image="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_78269812/fee_786_587_png/APPLE-iPhone-12---128-GB-Zwart-5G"
                     rating={5} 
                     />
-
-
-                
                 </div>
 
                 <div className="home__row">
@@ -59,13 +56,9 @@ function Home() {
                     image="https://media.s-bol.com/mO3E99J0jL4r/1200x784.jpg"
                     rating={4} 
                     />
- 
                 </div>
-            
             </div>
-        </div>
-
-        
+        </div>  
     )
 }
 
