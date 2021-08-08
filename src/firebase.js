@@ -22,3 +22,5 @@ const firebaseConfig = {
 
   export {db, auth};
   
+  
+  

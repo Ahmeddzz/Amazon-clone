@@ -22,21 +22,21 @@ function App() {
         // The user just lgogged in
         dispatch({
           type: 'SET_USER',
-          user: authUser
+          user: authUser,
         }
-        )
+        );
 
       } else{
          // The user is logged out
          dispatch({
            type: 'SET_USER',
-           user: null
-         })
+           user: null,
+         });
       }
-    })
+    });
 
     // will only run once when the app component loads
-  }, []) 
+  }, []) ;
   return (
     // BEM
     <Router>
