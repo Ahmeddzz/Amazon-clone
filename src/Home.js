@@ -14,7 +14,7 @@ function Home() {
 
                 <div className="home__row">
                 {/* 2 products */}
-                    <Product title='Thinkg and grow rich' 
+                    <Product title='Think and grow rich' 
                     price={19.99} 
                     image="https://images-na.ssl-images-amazon.com/images/I/61y04z8SKEL._SX349_BO1,204,203,200_.jpg"
                     rating={5} 
