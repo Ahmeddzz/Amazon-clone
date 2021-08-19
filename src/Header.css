@@ -2,7 +2,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: rgb(5, 50, 48);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -32,7 +32,7 @@
 .header__searchIcon {
   padding: 5px;
   height: 22px !important;
-  background-color: rgb(238, 178, 67);
+  background-color: rgb(79, 182, 137);
 }
 
 .header__nav {
@@ -47,13 +47,19 @@
   color: white;
 }
 
+.header__option:hover {
+  transform: scale(1.05) !important;
+  cursor: pointer;
+  color: rgb(118, 213, 159);
+}
+
 .header__optionLineOne {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .header__optionLineTwo {
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .header__optionBasket {
@@ -62,7 +68,25 @@
   color: white;
 }
 
-.header__basketCount{
+.header__BasketIcon,
+.header__deliverIcon {
+  color: rgb(255, 255, 255);
+}
+
+.header__optionBasket:hover,
+.header__BasketIcon:hover {
+  transform: scale(1.01) !important;
+  cursor: pointer;
+  color: rgb(118, 213, 159) !important;
+}
+
+.header__basketCount {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.header__deliver {
+  display: flex;
+  align-items: center;
+  border-color: white;
 }

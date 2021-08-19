@@ -9,12 +9,12 @@
   max-height: 400px;
   min-width: 100px;
   font-family: Arial, Helvetica, sans-serif;
-
   background-color: white;
-  box-shadow: 3px 5px 3px 3px #4c4949;
+  box-shadow: 1px 3px 1px 1px #4c4949;
+
   z-index: 1;
   /* border-radius: 20px; */
-} 
+}
 
 .product > img {
   max-height: 200px;
@@ -24,13 +24,10 @@
 }
 
 .product > button {
-  background: orange;
-  border: 2px solid;
+  background: rgb(79, 182, 137);
   margin-top: 10px;
-  color: black;
-  box-shadow: 1px 2px 1px 1px #4c4949;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .product_price {
@@ -46,4 +43,10 @@
 .product__rating {
   display: flex;
   margin-bottom: 10px;
+}
+
+.product:hover {
+  transform: scale(1.01) !important;
+  box-shadow: 3px 5px 3px 3px #4c4949;
+  cursor: pointer;
 }

@@ -1,0 +1,8 @@
+.payment {
+  display: flex;
+  padding-left: 10px;
+  background-color: ⬜;
+  height: max-content;
+  position: relative;
+  min-height: 100vh;
+}
