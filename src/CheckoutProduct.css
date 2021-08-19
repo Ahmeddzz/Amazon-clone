@@ -1,10 +1,12 @@
 .checkoutProduct {
   display: flex;
+  
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: white;
   z-index: 1;
-  box-shadow: 1px 3px 1px 1px #4c4949;
+  box-shadow: 0.5px 1px 1px 1px #4c4949;
+  padding: 10px;
 }
 
 .checkoutProduct__rating {
@@ -39,7 +41,7 @@
 }
 
 .checkoutProduct:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.01) !important;
   box-shadow: 3px 5px 3px 3px #4c4949;
   cursor: pointer;
 }

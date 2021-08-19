@@ -26,29 +26,7 @@ function Home() {
                     rating={5} 
                     />
                 </div>
-                <div className="home__row">
-                    <Product title='APPLE MacBook Air 13.3 (2020) - Spacegrijs M1 256GB 8GB' 
-                        price={1199} 
-                        image="https://media.s-bol.com/qlzkQRjZoNJr/1200x709.jpg"
-                        rating={5} 
-                    />
-                    <Product title='PHILIPS Sonicare 2 Series Duo HX6232/59' 
-                        price={69} 
-                        image="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79219373/fee_786_587_png/PHILIPS-Sonicare-2-Series-Duo-HX6232-59"
-                        rating={2} 
-                    />
-                    <Product title='CANON EOS 2000D 18-55mm DC + 75-300mm DC' 
-                        price={599} 
-                        image="https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-81310729/fee_786_587_png/CANON-EOS-2000D-18-55mm-DC---75-300mm-DC"
-                        rating={4} 
-                    />
-                        <Product title='Amerikaanse koelkast SAMSUNG RS6HA8891B1/EF' 
-                        price={2439} 
-                        image="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_83289182/fee_786_587_png/SAMSUNG-RS6HA8891B1-EF"
-                        rating={4} 
-                    />
-
-                </div>
+                
                 <div className="home__row">
                 {/* 3 products */} 
 
@@ -64,7 +42,7 @@ function Home() {
                     rating={3} 
                     />
 
-                <Product title='PHILIPS Scheerapparaat S5588/30 Shaver Series 5000 ZwartL' 
+                <Product title='PHILIPS Scheerapparaat S5588/30 Shaver Series 5000 Zwart' 
                     price={89.99} 
                     image="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79347302/fee_786_587_png/PHILIPS-S5588-30-Shaver-Series-5000-Zwart"
                     rating={2} 

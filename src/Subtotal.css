@@ -2,13 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
-  width: 250px;
-
+  align-items: center;
+  padding: 7px;
+  width: 240px;
   height: 100px;
   background-color: lightgrey;
   border: 1px solid whitesmoke;
   border-radius: 3px;
+  margin: 5px;
+  margin-top: 60px;
 }
 
 .subtotal__gift {
@@ -24,9 +26,9 @@
   background: rgb(79, 182, 137);
   border: 1px solid;
   margin-top: 10px;
+  align-items: center;
   color: black;
   border-radius: 2px;
-  width: 100%;
+  width: 90%;
   height: 30px;
-  margin-top: 10px;
 }
